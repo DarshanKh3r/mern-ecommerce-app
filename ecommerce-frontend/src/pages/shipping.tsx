@@ -24,9 +24,9 @@ const Shipping = () => {
         <BiArrowBack />
       </button>
 
-      <form action="">
+      <form>
         <h1>Shipping Address</h1>
-      </form>
+      
       <input
         required
         type="text"
@@ -73,6 +73,7 @@ const Shipping = () => {
         onChange={changeHandler}
       />
       <button type="submit"> Pay Now </button>
+      </form>
     </div>
   );
 };

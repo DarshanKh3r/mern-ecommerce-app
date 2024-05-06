@@ -35,6 +35,7 @@ $color3: rgb(0, 104, 136);
 @import "home.scss";
 @import "cart.scss";
 @import "shipping.scss";
+@import "login.scss";
 @import "admin-styles/dashboard";
 @import "admin-styles/products";
 @import "admin-styles/chart";
@@ -75,7 +76,11 @@ $color3: rgb(0, 104, 136);
     }
   }
 }
-
+.heading {
+  @include heading;
+  margin: 1rem 0;
+  text-align: center;
+}
 .admin-container {
   @include grid(1fr 4fr, 2rem);
   height: 100vh;
